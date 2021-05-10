@@ -1,0 +1,57 @@
+@import "../core/variables";
+
+
+button{
+    padding:2rem 3.6rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+
+    &.primary-btn{
+        background-color: $primaryColor;
+        color: $defaultCardColor;
+        font-family: $regularFont;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 3rem;
+        -webkit-box-shadow: -3px 13px 26px -9px rgba(4,101,134,1);
+        -moz-box-shadow: -3px 13px 26px -9px rgba(4,101,134,1);
+        box-shadow: -3px 13px 26px -9px rgba(4,101,134,1);
+        margin-left: 3.1rem;
+
+        .icon{
+            margin-left: 5px;
+            font-size: 20px;
+        }
+    
+    }
+
+    &.outline-btn{
+        box-shadow: none;
+        background-color: transparent;
+        border:1px solid $tertiaryColor;
+        width: 100%;
+        padding: 1.5rem 3rem;
+        margin: 2rem 0rem;
+        color: #000000;
+        font-size: 20px;
+
+        .bi.bi-facebook{
+            color: #636363;
+            font-size: 20px;
+            margin: 0px 5px;
+        }
+
+        .bi.bi-google{
+            font-size: 20px;
+            color: #636363;
+            margin: 0px 10px;
+        }
+
+
+    }
+
+}

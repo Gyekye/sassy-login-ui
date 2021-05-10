@@ -1,3 +1,4 @@
+@import "../core/variables";
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,9 +11,16 @@ html{
 }
 
 hr { 
-    border: 1px solid $placeholderColor;
+    border: 0.1px solid $tertiaryColor;
     background-color: $tertiaryColor;
-    width: 50%;
+    width: 100%;
     margin: auto;
+    height: 0.3px;
 
-}  
+} 
+
+input::placeholder{
+    font-family: $regularFont;
+    font-size: $regularFontSize;
+    color:$placeholderColor;
+}

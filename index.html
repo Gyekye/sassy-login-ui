@@ -12,35 +12,36 @@
 <body>
 
     <div class="big-card">
-        <div class="card-content container-fluid">
+        <div class="card-content container">
             <h2 class="card-title">Log In</h2>
-            <p>Log in to your account to upload or download pictures, videos or music.</p>
+            <p class="card-subtitle">Log in to your account to upload or download pictures, videos or music.</p>
             <br><br>
             <form action="">
                <div class="row">
                    <div class="col-xs-12">
-                    <input type="text" name="" id="" placeholder="Enter your email address">
+                    <input class="email-field" type="email" name="email" id="" placeholder="Enter your email address">
                    </div>
                </div>
             </form>
-            <div class="row">
+            <div class="row between-xs row middle-xs">
                 <div class="col-xs-6">
-                    <p>Forgot password?</p>
+                    <div> <a href="">Forgot password?</a> </div>
                 </div>
                 <div class="col-xs-6">
-                    <button>Enter</button>
+                    <button class="primary-btn">Next <i class="bi bi-arrow-right icon"></i></button>
                 </div>
             </div>
             <hr>
+            <br>
             <div class="row center-xs">
-            <div class="col-auto">Or Log In with</div>
+            <div class="col-auto"><p class="social-title">Or Log In with</p></div>
             </div>
             <div class="row center-xs">
-                <div class="col-xs-6"><button>Facebook</button></div>
-                <div class="col-xs-6"><button>Google</button></div>
+                <div class="col-xs-6"><button class="outline-btn"> <i class="bi bi-facebook"></i> Facebook</button></div>
+                <div class="col-xs-6"><button class="outline-btn"><i class="bi bi-google"></i>Google</button></div>
             </div>
             <div class="row center-xs">
-                <div class="col-auto">Don’t have an account yet? <a href="http://" target="_blank" rel="noopener noreferrer">Sign up</a> </div>
+                <div class="col-auto">Don’t have an account yet? <a  class="link" href="http://" target="_blank" rel="noopener noreferrer">Sign up</a> </div>
             </div>
         </div>
         <img src="img/main-img.png" alt="" class="card-img">
