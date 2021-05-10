@@ -1,0 +1,31 @@
+@import"../core/variables";
+
+.big-card{
+    width: 1057px;
+    height: 709px;
+    border: 1px solid white;
+    background-color: $defaultCardColor;
+    border-radius: 10px;
+    -webkit-box-shadow: -11px 10px 62px 14px rgba(240,211,211,1);
+    -moz-box-shadow: -11px 10px 62px 14px rgba(240,211,211,1);
+    box-shadow: -11px 10px 62px 14px rgba(240,211,211,1);
+
+    .card-img{
+        width: 40%;
+        height: inherit;
+        float: right;
+        margin-bottom: 1px;
+    }
+
+    .card-content{
+        width: 60%;
+        float: left;
+        background-color: rgb(255, 255, 255);
+
+        .card-title{
+            font-family: $headerFont;
+            font-size: $boldFontSize;
+            
+        }
+    }
+}

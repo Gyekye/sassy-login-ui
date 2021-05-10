@@ -3,3 +3,16 @@
     padding: 0;
     margin: 0;
 }
+
+html{
+    font-family: $regularFont;
+    font-size: $regularFontSize;
+}
+
+hr { 
+    border: 1px solid $placeholderColor;
+    background-color: $tertiaryColor;
+    width: 50%;
+    margin: auto;
+
+}  
